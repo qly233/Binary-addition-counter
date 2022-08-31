@@ -1,0 +1,68 @@
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+xst -intstyle ise -ifn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.xst" -ofn "D:/szdl/erjinzhijiafajishuqi/erjinzhijiafajishuqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc erjinzhijiafajishuqi.ucf -p xc7a100t-fgg484-2L erjinzhijiafajishuqi.ngc erjinzhijiafajishuqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ngd erjinzhijiafajishuqi.pcf 
+par -w -intstyle ise -ol high -mt off erjinzhijiafajishuqi_map.ncd erjinzhijiafajishuqi.ncd erjinzhijiafajishuqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml erjinzhijiafajishuqi.twx erjinzhijiafajishuqi.ncd -o erjinzhijiafajishuqi.twr erjinzhijiafajishuqi.pcf -ucf erjinzhijiafajishuqi.ucf 
+bitgen -intstyle ise -f erjinzhijiafajishuqi.ut erjinzhijiafajishuqi.ncd 
